@@ -12,6 +12,9 @@ public class User {
   private Integer id;
 
   private String name;
+  private Boolean moderator;
+
+  private String password;
 
 
   public Integer getId() {
@@ -30,4 +33,19 @@ public class User {
     this.name = name;
   }
 
+  public Boolean getModerator() {
+    return moderator;
+  }
+
+  public void setModerator(Boolean moderator) {
+    this.moderator = moderator;
+  }
+
+  public void setPassword(String password) {
+    this.password = password;
+  }
+
+  public String getPassword() {
+    return password;
+  }
 }
